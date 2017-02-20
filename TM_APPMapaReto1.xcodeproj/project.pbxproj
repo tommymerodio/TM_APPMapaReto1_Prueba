@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		093B16761E5B7FA80040B86E /* TM_MapasListaLugaresFavoritosTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093B16751E5B7FA80040B86E /* TM_MapasListaLugaresFavoritosTVC.swift */; };
+		093B16781E5B7FBE0040B86E /* TM_MapaLugarFavorito.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093B16771E5B7FBE0040B86E /* TM_MapaLugarFavorito.swift */; };
 		09DA9BF91E54D43300D637BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DA9BF81E54D43300D637BB /* AppDelegate.swift */; };
-		09DA9BFB1E54D43300D637BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DA9BFA1E54D43300D637BB /* ViewController.swift */; };
+		09DA9BFB1E54D43300D637BB /* TM_PrimerMapaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DA9BFA1E54D43300D637BB /* TM_PrimerMapaVC.swift */; };
 		09DA9BFE1E54D43300D637BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09DA9BFC1E54D43300D637BB /* Main.storyboard */; };
 		09DA9C001E54D43300D637BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09DA9BFF1E54D43300D637BB /* Assets.xcassets */; };
 		09DA9C031E54D43300D637BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09DA9C011E54D43300D637BB /* LaunchScreen.storyboard */; };
+		09DA9C0C1E54D4B800D637BB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09DA9C0B1E54D4B800D637BB /* MapKit.framework */; };
+		09DA9C0E1E54E49F00D637BB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09DA9C0D1E54E49F00D637BB /* CoreLocation.framework */; };
+		09DA9C101E54F04F00D637BB /* TM_DatosAlfanumericos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DA9C0F1E54F04F00D637BB /* TM_DatosAlfanumericos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		093B16751E5B7FA80040B86E /* TM_MapasListaLugaresFavoritosTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TM_MapasListaLugaresFavoritosTVC.swift; sourceTree = "<group>"; };
+		093B16771E5B7FBE0040B86E /* TM_MapaLugarFavorito.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TM_MapaLugarFavorito.swift; sourceTree = "<group>"; };
 		09DA9BF51E54D43300D637BB /* TM_APPMapaReto1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TM_APPMapaReto1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09DA9BF81E54D43300D637BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		09DA9BFA1E54D43300D637BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		09DA9BFA1E54D43300D637BB /* TM_PrimerMapaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TM_PrimerMapaVC.swift; sourceTree = "<group>"; };
 		09DA9BFD1E54D43300D637BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		09DA9BFF1E54D43300D637BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09DA9C021E54D43300D637BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09DA9C041E54D43300D637BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09DA9C0B1E54D4B800D637BB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		09DA9C0D1E54E49F00D637BB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		09DA9C0F1E54F04F00D637BB /* TM_DatosAlfanumericos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TM_DatosAlfanumericos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09DA9C0E1E54E49F00D637BB /* CoreLocation.framework in Frameworks */,
+				09DA9C0C1E54D4B800D637BB /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		093B16791E5B7FCE0040B86E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				093B16751E5B7FA80040B86E /* TM_MapasListaLugaresFavoritosTVC.swift */,
+				093B16771E5B7FBE0040B86E /* TM_MapaLugarFavorito.swift */,
+				09DA9BFA1E54D43300D637BB /* TM_PrimerMapaVC.swift */,
+				09DA9C0F1E54F04F00D637BB /* TM_DatosAlfanumericos.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 		09DA9BEC1E54D43200D637BB = {
 			isa = PBXGroup;
 			children = (
 				09DA9BF71E54D43300D637BB /* TM_APPMapaReto1 */,
 				09DA9BF61E54D43300D637BB /* Products */,
+				09DA9C0A1E54D4B800D637BB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +79,22 @@
 			isa = PBXGroup;
 			children = (
 				09DA9BF81E54D43300D637BB /* AppDelegate.swift */,
-				09DA9BFA1E54D43300D637BB /* ViewController.swift */,
+				093B16791E5B7FCE0040B86E /* ViewControllers */,
 				09DA9BFC1E54D43300D637BB /* Main.storyboard */,
 				09DA9BFF1E54D43300D637BB /* Assets.xcassets */,
 				09DA9C011E54D43300D637BB /* LaunchScreen.storyboard */,
 				09DA9C041E54D43300D637BB /* Info.plist */,
 			);
 			path = TM_APPMapaReto1;
+			sourceTree = "<group>";
+		};
+		09DA9C0A1E54D4B800D637BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09DA9C0D1E54E49F00D637BB /* CoreLocation.framework */,
+				09DA9C0B1E54D4B800D637BB /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,11 +124,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = cice;
 				TargetAttributes = {
 					09DA9BF41E54D43200D637BB = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = NZ9BB45RRX;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -136,7 +170,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09DA9BFB1E54D43300D637BB /* ViewController.swift in Sources */,
+				09DA9C101E54F04F00D637BB /* TM_DatosAlfanumericos.swift in Sources */,
+				093B16761E5B7FA80040B86E /* TM_MapasListaLugaresFavoritosTVC.swift in Sources */,
+				093B16781E5B7FBE0040B86E /* TM_MapaLugarFavorito.swift in Sources */,
+				09DA9BFB1E54D43300D637BB /* TM_PrimerMapaVC.swift in Sources */,
 				09DA9BF91E54D43300D637BB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -181,6 +218,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -203,7 +241,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -231,6 +269,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -247,7 +286,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -260,11 +299,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NZ9BB45RRX;
 				INFOPLIST_FILE = TM_APPMapaReto1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cice.TM-APPMapaReto1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -272,11 +313,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NZ9BB45RRX;
 				INFOPLIST_FILE = TM_APPMapaReto1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cice.TM-APPMapaReto1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -299,6 +342,7 @@
 				09DA9C091E54D43300D637BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
