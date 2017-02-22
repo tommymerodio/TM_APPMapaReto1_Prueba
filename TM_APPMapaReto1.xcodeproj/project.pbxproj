@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0931699E1E5E15F200C61F18 /* API_TASK_MANAGER.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0931699D1E5E15F200C61F18 /* API_TASK_MANAGER.swift */; };
 		093B16761E5B7FA80040B86E /* TM_MapasListaLugaresFavoritosTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093B16751E5B7FA80040B86E /* TM_MapasListaLugaresFavoritosTVC.swift */; };
 		093B16781E5B7FBE0040B86E /* TM_MapaLugarFavorito.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093B16771E5B7FBE0040B86E /* TM_MapaLugarFavorito.swift */; };
 		09DA9BF91E54D43300D637BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DA9BF81E54D43300D637BB /* AppDelegate.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0931699D1E5E15F200C61F18 /* API_TASK_MANAGER.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API_TASK_MANAGER.swift; sourceTree = "<group>"; };
 		093B16751E5B7FA80040B86E /* TM_MapasListaLugaresFavoritosTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TM_MapasListaLugaresFavoritosTVC.swift; sourceTree = "<group>"; };
 		093B16771E5B7FBE0040B86E /* TM_MapaLugarFavorito.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TM_MapaLugarFavorito.swift; sourceTree = "<group>"; };
 		09DA9BF51E54D43300D637BB /* TM_APPMapaReto1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TM_APPMapaReto1.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +54,7 @@
 			children = (
 				093B16751E5B7FA80040B86E /* TM_MapasListaLugaresFavoritosTVC.swift */,
 				093B16771E5B7FBE0040B86E /* TM_MapaLugarFavorito.swift */,
+				0931699D1E5E15F200C61F18 /* API_TASK_MANAGER.swift */,
 				09DA9BFA1E54D43300D637BB /* TM_PrimerMapaVC.swift */,
 				09DA9C0F1E54F04F00D637BB /* TM_DatosAlfanumericos.swift */,
 			);
@@ -173,6 +176,7 @@
 				09DA9C101E54F04F00D637BB /* TM_DatosAlfanumericos.swift in Sources */,
 				093B16761E5B7FA80040B86E /* TM_MapasListaLugaresFavoritosTVC.swift in Sources */,
 				093B16781E5B7FBE0040B86E /* TM_MapaLugarFavorito.swift in Sources */,
+				0931699E1E5E15F200C61F18 /* API_TASK_MANAGER.swift in Sources */,
 				09DA9BFB1E54D43300D637BB /* TM_PrimerMapaVC.swift in Sources */,
 				09DA9BF91E54D43300D637BB /* AppDelegate.swift in Sources */,
 			);
