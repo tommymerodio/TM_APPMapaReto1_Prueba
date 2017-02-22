@@ -8,16 +8,23 @@
 
 import UIKit
 
+var customLugares = [Dictionary<String, String>()]
+var customLugarSeleccionador = -1
+
+
 class TM_MapasListaLugaresFavoritosTVC: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+        customLugares.remove(at: 0)
+        customLugares.append(["name": "Taj-Majal", "lat": "27.175277", "longitud": "78.042128"])
+        
+        
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        tableView.reloadData()
     }
 
     override func didReceiveMemoryWarning() {
@@ -29,23 +36,28 @@ class TM_MapasListaLugaresFavoritosTVC: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return customLugares.count
     }
 
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
 
+        let dataLugaresModel = customLugares[indexPath.row]
+        
         // Configure the cell...
+        
+        cell.textLabel?.text = dataLugaresModel["name"]
+        cell.detailTextLabel?.text = dataLugaresModel["lat"]
 
         return cell
     }
-    */
+    
 
     /*
     // Override to support conditional editing of the table view.
